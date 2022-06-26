@@ -20,9 +20,6 @@ sleep 2
 sudo npm run build
 ls
 sleep 5
-sudo cp -r build /var/www/html
+sudo cp -r build/* /var/www/html
 cd ../../
-ls
-sleep 2
-sudo mv build/* .
 ls
